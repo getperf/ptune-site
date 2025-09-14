@@ -1,0 +1,28 @@
+site_name: ptune
+site_url: https://ptune.getperf.net
+
+theme:
+  name: material
+  language: ja
+  logo: img/ptune_icon.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: ダークモードに切り替え
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: ライトモードに切り替え
+
+nav:
+  - 日本語:
+      - ホーム: index.md
+      - プライバシーポリシー: privacy.md
+  - English:
+      - Home: en/index.md
+      - Privacy Policy: en/privacy.md
