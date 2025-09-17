@@ -23,6 +23,8 @@ nav:
   - 日本語:
       - ホーム: index.md
       - プライバシーポリシー: privacy.md
+      - 利用規約: terms.md
   - English:
       - Home: en/index.md
       - Privacy Policy: en/privacy.md
+      - Terms of Service: en/terms.md
