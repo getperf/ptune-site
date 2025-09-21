@@ -1,11 +1,11 @@
 # Privacy Policy
 
 **Application name:** ptune  
-**Developer:** Minoru Furusawa (or development name if different)  
+**Developer:** Minoru Furusawa  
 **Contact:** furu3@getperf.net  
 **Domain:** https://ptune.getperf.net  
 **Published on:** September 13, 2025  
-**Last updated:** September 13, 2025  
+**Last updated:** September 22, 2025  
 
 ---
 
@@ -36,11 +36,14 @@ The collected information will **never** be used for other purposes (such as adv
 - It directly accesses Google Tasks cloud data provided by Google with the user’s consent.  
 - For convenience, the application may temporarily cache data on the device.  
 - Cached data will be deleted when the user uninstalls the app or performs the "logout" operation within the app.  
+- All Google user data obtained through OAuth is limited to communication with Google APIs and local device usage only.  
 
 ---
 
-## 4. Disclosure to Third Parties
-The collected information will **never** be provided to any third party.
+## 4. Data Sharing and Disclosure
+- This application does not sell, share, transfer, or disclose any Google user data to any third party other than the developer (Minoru Furusawa).  
+- The data is processed locally on the user’s device and is used only for accessing Google APIs.  
+- The application does not provide any data to external advertising companies, analytics providers, or other service vendors.  
 
 ---
 
