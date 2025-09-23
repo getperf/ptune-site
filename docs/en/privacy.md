@@ -1,19 +1,19 @@
 # Privacy Policy
 
-**Application name:** ptune  
-**Developer:** Minoru Furusawa (or development name if different)  
+**Application name:** ptune (Mobile app / Desktop plugin ptune-log for Obsidian)  
+**Developer:** Minoru Furusawa  
 **Contact:** furu3@getperf.net  
 **Domain:** https://ptune.getperf.net  
 **Published on:** September 13, 2025  
-**Last updated:** September 13, 2025  
+**Last updated:** September 23, 2025  
 
 ---
 
 ## 1. Information We Collect
-This application obtains the following information:
+This application (including the mobile app ptune and the desktop plugin ptune-log for Obsidian) collects the following information:
 
 - User data through Google OAuth  
-  - Google Tasks list information (task titles, task IDs, status, etc.)  
+  - Google Tasks data (task titles, IDs, status, due dates, notes, and other standard fields returned by the Google Tasks API)  
   - Basic Google Account information (email address)  
 - Work data generated during app usage (timer records, task completion history, etc.)
 
@@ -23,11 +23,11 @@ This application obtains the following information:
 The collected information is used only for the following purposes:
 
 - Display and management of tasks registered in Google Tasks  
-- Integration of Pomodoro timer and task progress  
+- Integration of the Pomodoro timer with task progress  
 - Analysis of task records for personal use, such as generating daily review reports  
-- Support for recording tasks when used together with the Obsidian plugin (ptune-log)  
+- Support for recording tasks through the Obsidian plugin (ptune-log), including task export and import  
 
-The collected information will **never** be used for other purposes (such as advertising or sharing with third parties).
+The collected information will **never** be used for any other purposes (such as advertising or sharing with third parties).
 
 ---
 
@@ -54,8 +54,10 @@ The collected information will **never** be provided to any third party.
 ## 6. Security Measures
 - This application communicates directly with the Google API without using any independent servers.  
 - All communication between the application and Google APIs is encrypted using HTTPS.  
-- Authentication is handled using official Google libraries (FirebaseAuth, google_sign_in).  
-- OAuth tokens are stored only in the secure area of the device and are never transmitted to any external third party.  
+- Authentication methods:  
+  - Mobile app: FirebaseAuth, google_sign_in  
+  - Desktop plugin (ptune-log): Google OAuth with PKCE (Proof Key for Code Exchange)  
+- OAuth tokens are stored only in secure areas on the device and are never transmitted to any external third party.  
 
 ---
 
