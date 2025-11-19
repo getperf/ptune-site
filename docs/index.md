@@ -9,20 +9,18 @@
 本システムは次の **2 つの主要コンポーネント**から構成されます。
 
 ### 1. スマホアプリ **ptune**
-- 今日やるタスクを確認  
-- ポモドーロ方式で作業を実行  
+- 今日やるタスク（ToDoリスト）を確認  
+- ポモドーロ方式（決められた時間に作業に集中する仕組み）で作業を実行  
 - 作業ログ（開始・終了・完了ステータス）を自動記録  
 - Google Tasks を経由して PC と同期  
 
 ### 2. Obsidian プラグイン **ptune-log**
-- タスク整理と記録ノートの作成  
+- 様々な作業の記録ノートの作成・蓄積  
 - 作業ログの集約・整理  
 - AI による要点抽出・キーワード抽出  
 - Daily Note への自動まとめと翌日の準備  
 
 Windows 環境では、Google 認証と同期を簡単に行う補助ツール **PtuneSync** も利用できます。
-
----
 
 ## 全体イメージ（まず全体像）
 
@@ -37,35 +35,31 @@ ptune プロジェクトは、
 - → スマホアプリで時間管理  
 - → 1 日のまとめと翌日の計画へつながる  
 
----
-
 ## データ連携フロー（技術的イメージ）
 
 次の図は、  
-スマホと Obsidian が **Google Tasks を介してどのように連携するか** を示しています。
+スマホタイマーアプリと Obsidian が **Google Tasks を介してどのように連携するか** を示しています。
 
 ![ptune data flow](img/ptune_data_flow.png)
 
----
-
 ## 1日の流れ（ユースケース）
 
-### 朝：Obsidian でタスクを整理（ptune-log）
+### 朝：Obsidian でタスクを整理
 - 今日やることをノートにまとめる  
 - Google Tasks に同期  
-- スマホ ptune にタスクが反映される  
+- スマホにタスクが反映される  
 
-### 昼：スマホで作業を記録（ptune）
-- タイマーを開始・停止するだけで自動ログ化  
+### 昼：スマホ・Obsidian で作業を記録
+- いろいろな作業ログをタスクに合わせて Obsidian ノートへ蓄積  
+- タイマーの開始・停止だけで作業時間を自動記録  
 - 作業内容や完了ステータスが Google Tasks に蓄積  
 
-### 夜：Obsidian で振り返り（ptune-log）
+### 夜：Obsidian で振り返り
 - その日の作業ログが自動で集約  
 - AI が要点とキーワードを抽出  
-- “今日うまくできたこと（Keep）” をまとめて Daily Note に自動保存  
+- “今日うまくできたこと（Keep）” を Daily Note に自動保存  
 - 翌日の計画作成に役立つ  
 
----
 
 ## ptune プロジェクトのメリット
 
@@ -75,23 +69,18 @@ ptune プロジェクトは、
 - **毎日の振り返りが自然に定着する**  
 - **翌日の計画の質が向上する**
 
----
-
 ## 関連リンク
 
 - 📱 **スマホアプリ ptune**  
-  https://github.com/getperf/ptune
+   [GitHub — getperf/ptune](https://github.com/getperf/ptune)
 
 - 📒 **Obsidian プラグイン ptune-log**  
-  https://github.com/getperf/ptune-log
+   [GitHub — getperf/ptune-log](https://github.com/getperf/ptune-log)
 
 - 💻 **PtuneSync（Windows 補助アプリ）**  
-  https://github.com/getperf/PtuneSync
+   [GitHub — getperf/PtuneSync](https://github.com/getperf/PtuneSync)
 
 - ⚖️ [プライバシーポリシー](privacy.md)
-
-- 🌐 公式サイト  
-  https://ptune.getperf.net/
 
 ---
 
