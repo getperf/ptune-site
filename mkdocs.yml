@@ -19,12 +19,19 @@ theme:
         icon: material/weather-sunny
         name: ライトモードに切り替え
 
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - 日本語:
       - ホーム: index.md
+      - スマホアプリ ptune: ptune.md
+      - Obsidian プラグイン ptune-log: ptune-log.md
       - プライバシーポリシー: privacy.md
       - 利用規約: terms.md
   - English:
       - Home: en/index.md
+      - Smartphone Apps ptune: en/ptune.md
+      - Obsidian plugin ptune-log: en/ptune-log.md
       - Privacy Policy: en/privacy.md
       - Terms of Service: en/terms.md
