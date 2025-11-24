@@ -18,7 +18,8 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: ライトモードに切り替え
-
+  features:
+    - navigation.footer  
 extra_css:
   - stylesheets/extra.css
 
@@ -26,7 +27,27 @@ nav:
   - 日本語:
       - ホーム: index.md
       - スマホアプリ ptune: ptune.md
-      - Obsidian プラグイン ptune-log: ptune-log.md
+      - Obsidian プラグイン ptune-log:
+        - システム要件: ptune-log/requirements/index.md
+        - セットアップ:
+            - セットアップ概要: ptune-log/setup/index.md
+            - Obsidian インストール: ptune-log/setup/install-obsidian.md
+            - ptune-log プラグインインストール: ptune-log/setup/install-plugin.md
+            - PtuneSync 補助ツール: ptune-log/setup/install-ptunesync.md
+            - AIサービスキー設定: ptune-log/setup/ai-service-keys.md
+            - その他のセットアップ: ptune-log/setup/other-setup.md
+            - Google OAuth (mac): ptune-log/setup/google-oauth-mac.md
+        - 利用手順:
+            - 利用手順概要: ptune-log/usage/index.md
+            - 1日のタスク登録（朝）: ptune-log/usage/morning-task-entry.md
+            - ノート記録（昼）: ptune-log/usage/noon-note-taking.md
+            - 1日の振り返り（夜）: ptune-log/usage/night-review.md
+            - その他の機能: ptune-log/usage/other-features.md
+            - タグメンテナンス: ptune-log/usage/tag-maintenance.md
+        - コマンドリファレンス:
+            - コマンド一覧: ptune-log/reference/commands.md
+            - 設定パラメータ: ptune-log/reference/settings.md
+        - よくある質問: ptune-log/faq/index.md
       - プライバシーポリシー: privacy.md
       - 利用規約: terms.md
   - English:
