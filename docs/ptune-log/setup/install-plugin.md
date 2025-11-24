@@ -10,13 +10,13 @@
 ユーザテストでは、事前に配布された `ptune-log-1.0.0.zip` を使用します。
 
 1. GitHub リポジトリのリリースページから zip ファイルを取得  
-   https://github.com/getperf/ptune-log/releases
+   [GitHub リリースページ](https://github.com/getperf/ptune-log/releases)
 2. Obsidian プラグイン保存ディレクトリに展開します。
 3. 初期化された Vault には plugins ディレクトリがまだ存在しないため作成します。
-4. 画面左下の「保管庫の管理」を選択し、Vault リストから作成した Vault を右クリック →  
-   **「システムのエクスプローラで表示」** を選択してフォルダを開きます。
-5. `<Vault>/.obsidian` に移動し、その下に `plugins` ディレクトリを作成します。
-6. 取得した zip ファイルを次の場所に展開します。
+    4. 画面左下の「保管庫の管理」を選択し、Vault リストから作成した Vault を右クリック →  
+        **「システムのエクスプローラで表示」** を選択してフォルダを開きます。
+    5. `<Vault>/.obsidian` に移動し、その下に `plugins` ディレクトリを作成します。
+6. 取得した zip ファイルを展開します。展開すると以下のディレクトリが作成されます。
 
     `<Vault>/.obsidian/plugins/ptune-log/`
 
