@@ -4,7 +4,7 @@
 ポモドーロタイマー付きタスク管理アプリです。
 
 開発リポジトリ（ソースコードはこちら）  
-➡ https://github.com/getperf/ptune
+➡ [GitHub — getperf/ptune](https://github.com/getperf/ptune)
 
 より詳しい画面説明・使い方はこのページで紹介します。
 
