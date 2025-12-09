@@ -26,6 +26,7 @@ extra_css:
 nav:
   - 日本語:
       - ホーム: index.md
+      - ユーザテストへのご協力: user-test/index.md
       - スマホアプリ ptune: ptune.md
       - Obsidian プラグイン ptune-log:
         - システム要件: ptune-log/requirements/index.md
