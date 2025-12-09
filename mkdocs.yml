@@ -33,6 +33,7 @@ nav:
             - セットアップ概要: ptune-log/setup/index.md
             - Obsidian インストール: ptune-log/setup/install-obsidian.md
             - ptune-log プラグインインストール: ptune-log/setup/install-plugin.md
+            - WebClipper の確認: ptune-log/setup/install-web-clipper.md
             - PtuneSync 補助ツール: ptune-log/setup/install-ptunesync.md
             - AIサービスキー設定: ptune-log/setup/ai-service-keys.md
             - その他のセットアップ: ptune-log/setup/other-setup.md

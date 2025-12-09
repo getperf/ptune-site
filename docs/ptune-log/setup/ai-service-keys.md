@@ -16,13 +16,13 @@
 
 - いずれも **有償サービス** であり、利用には API キーと課金設定が必要です。
 
-### 生成AIサービスの API キーについて
+## 1. 生成AIサービスの API キーの取得
 
 以下のいずれかのサービスの API キーが必要になります。
 
 ---
 
-## 1. OpenAI API キーの取得
+### 1-1. OpenAI API キーの取得
 
 - キー発行ページ：  
   [OpenAI API Keys](https://platform.openai.com/account/api-keys)
@@ -35,7 +35,7 @@
 
 ---
 
-## 2. Google Gemini API キーの取得
+### 1-2. Google Gemini API キーの取得
 
 - キー発行ページ：  
   [Google Gemini API Keys](https://aistudio.google.com/app/apikey)
@@ -48,7 +48,7 @@
 
 ---
 
-## 3. Anthropic Claude API キーの取得
+### 1-3. Anthropic Claude API キーの取得
 
 - キー発行ページ：  
   [Anthropic Claude API Keys](https://console.anthropic.com/account/keys)
@@ -61,7 +61,7 @@
 
 ---
 
-## 4. Obsidian プラグインでの設定
+## 2. Obsidian プラグインでの設定
 
 1. Obsidian の設定画面を開く
 2. サイドバーから `ptune-log` プラグイン設定を選択
@@ -96,7 +96,7 @@
 
 ---
 
-## 5. プロンプトのカスタマイズ
+## 3. プロンプトのカスタマイズ
 
 タグ生成結果を改善するため、用途に応じてプロンプトテンプレートを調整できます。
 
@@ -124,17 +124,20 @@
 
 ---
 
-## 6. 動作確認
+## 4. 動作確認
 
 タグ生成が正しく動作するか確認します。
 
-1. ノートを右クリック
-2. **「LLMでタグを自動生成」** を選択
-3. YAML ヘッダーにタグ候補が生成されることを確認
+1. LLM実行対象ノートを右クリック  
+  特に指定がなければ、Web Clipper で動作確認した、 `Clippings/ホーム - ptune` を選択してください。
+2. **「LLMでノートのレビュー」** を選択
+3. 確認画面から、**LLMタグ生成** を実行
+4. **保存** をクリックして実行結果を保存
+3. YAML ヘッダーに要約や、タグ候補が生成されることを確認
 
 ---
 
-## 7. トラブルシューティング
+## 5. トラブルシューティング
 
 - **応答がない / タイムアウト**  
   → API キーが無効、またはネットワークが遮断されている可能性
@@ -147,7 +150,7 @@
 
 ---
 
-## 8. 各サービスの課金状況リンク
+## 6. 各サービスの課金状況リンク
 
 - OpenAI:  
   [OpenAI Usage](https://platform.openai.com/account/usage)

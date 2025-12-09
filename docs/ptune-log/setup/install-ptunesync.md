@@ -18,7 +18,7 @@ PtuneSync は、Obsidian と Google Tasks を自動同期するための
 ### 手順
 
 1. GitHub リポジトリのリリースページを開きます。  
-   [PtuneSite Releases](https://github.com/getperf/PtuneSite/releases)
+   [PtuneSync Releases](https://github.com/getperf/PtuneSync/releases)
 
 2. 最新リリースから以下のいずれかをダウンロード  
    - `PtuneSync_x.x.x.msix`
@@ -74,14 +74,14 @@ PtuneSync を正しく使用するためには、
 
 Obsidian の設定を開き、以下を確認します：
 
-1. **設定 → ptune-log → Google Tasks 設定**
+1. **設定 → ptune-log → Google 認証設定**
 2. **「Windows アプリで認証を行う」** が **ON（既定値）** であること
 
 この設定が **PtuneSync を使った認証モード**の切り替えです。
 
 ---
 
-## 4-2. コマンドパレットで認証を開始する
+### 4-2. コマンドパレットで認証を開始する
 
 1. Obsidian を開く  
 2. **Ctrl + P** を押してコマンドパレットを表示  
@@ -90,7 +90,7 @@ Obsidian の設定を開き、以下を確認します：
 
 ---
 
-## 4-3. ブラウザでの OAuth 認証手順
+### 4-3. ブラウザでの OAuth 認証手順
 
 PtuneSync がブラウザを自動で起動し、以下の画面が開きます。
 
@@ -103,7 +103,7 @@ PtuneSync がブラウザを自動で起動し、以下の画面が開きます�
 
 ---
 
-## 4-4. 認証が失敗する場合
+### 4-4. 認証が失敗する場合
 
 - 別 Google アカウントを選択した  
 - ブラウザに旧ログイン状態が残っている  

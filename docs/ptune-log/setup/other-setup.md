@@ -14,27 +14,8 @@
 
 ## 対象プラグイン
 
-- [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper)  
-  ブラウザ上の Web ページを直接 Obsidian ノートに保存する拡張機能。
-
 - [copy2md（VSCode Extension）](https://marketplace.visualstudio.com/items?itemName=xycopy.copy2md)  
   VSCode でコピーしたテキストを Markdown のコードブロック形式に整形して貼り付ける拡張機能。
-
----
-
-## Obsidian Web Clipper
-
-### 目的
-
-ブラウザ上のページを Obsidian ノートとして素早く保存できます。  
-技術記事・参考資料・研究メモを整理する際に便利です。
-
-### セットアップ手順
-
-1. 上記リンクからブラウザ拡張をインストールします。  
-2. Obsidian を起動し、Vault のパスを指定します。  
-3. 保存テンプレート（例：`clip_{{title}}.md`）を設定します。  
-4. ブラウザのツールバーから **「Clip to Obsidian」** を実行し、保存されることを確認します。
 
 ---
 
