@@ -18,7 +18,7 @@ The system consists of the following **two main components**:
 - Create and accumulate work journals in Obsidian
 - Aggregate and organize work logs
 - Extract key points and keywords using AI
-- Automatically summarize the day in Daily Notes and prepare for the next day
+- Automatically summarize the day in デイリーノートs and prepare for the next day
 
 On Windows, you can also use **PtuneSync**,  
 a helper tool that simplifies Google authentication and synchronization.
@@ -64,7 +64,7 @@ The following diagram shows
 ### Evening: Review in Obsidian
 - The day’s work logs are automatically aggregated  
 - AI extracts key points and keywords  
-- “What went well today (Keep)” is saved to the Daily Note  
+- “What went well today (Keep)” is saved to the デイリーノート  
 - Helps you plan for the next day  
 
 ---

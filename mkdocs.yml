@@ -41,9 +41,12 @@ nav:
             - Google OAuth (mac): ptune-log/setup/google-oauth-mac.md
         - 利用手順:
             - 利用手順概要: ptune-log/usage/index.md
-            - 1日のタスク登録（朝）: ptune-log/usage/morning-task-entry.md
-            - ノート記録（昼）: ptune-log/usage/noon-note-taking.md
-            - 1日の振り返り（夜）: ptune-log/usage/night-review.md
+            - 1日の流れ（全体像）: ptune-log/usage/overview-daily-flow.md
+            - ① 朝：タスク定義: ptune-log/usage/step1-morning-task-entry.md
+            - ② 昼：作業開始: ptune-log/usage/step2-start-working.md
+            - ③ 作業記録: ptune-log/usage/step3-note-taking.md
+            - ④ 作業終了: ptune-log/usage/step4-wrap-up.md
+            - ⑤ 夜：振り返り: ptune-log/usage/step5-night-review.md
             - その他の機能: ptune-log/usage/other-features.md
             - タグメンテナンス: ptune-log/usage/tag-maintenance.md
         - コマンドリファレンス:
