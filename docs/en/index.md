@@ -1,97 +1,141 @@
-# ptune Project
+## ptune Project
 
 ## Overview
 
-**ptune** is a personal work-log management system that integrates  
-**task management on mobile** with **work journaling and analysis in Obsidian**,  
-helping you naturally reflect on your daily activities.
+**A system for running your day with tasks and records**
 
-The system consists of the following **two main components**:
+The ptune project is a personal work-log platform designed to help you  
+run your day through a simple cycle of **plan → execute → reflect**.
 
-### 1. Mobile App: **ptune**
-- Check today's tasks (ToDo list)
-- Work with a Pomodoro-style focus timer
-- Automatically record work sessions, start/end times, and completion status
-- Sync tasks and progress with your PC via Google Tasks
-
-### 2. Obsidian Plugin: **ptune-log**
-- Create and accumulate work journals in Obsidian
-- Aggregate and organize work logs
-- Extract key points and keywords using AI
-- Automatically summarize the day in Daily Notes and prepare for the next day
-
-On Windows, you can also use **PtuneSync**,  
-a helper tool that simplifies Google authentication and synchronization.
-
----
-
-## System Overview
-
-The ptune project is designed to support the full workflow:
-
-**“Work on mobile → Store in Obsidian → Reflect with AI.”**
+Plan your day in the morning,  
+work during the day,  
+and reflect on your results in the evening.
 
 ![Workflow Diagram](../img/workflow.png)
 
-- Various activities (programming, AI chat, research, experiments, etc.)  
-- → Logs are accumulated in Obsidian  
-- → Time management with the mobile app  
-- → Leads to daily reflection and next-day planning
+ptune supports this daily cycle so that it can be continued naturally and consistently.
 
 ---
 
-## Data Flow (Technical Overview)
+## Daily Workflow
 
-The following diagram shows  
-**how the mobile timer app and Obsidian integrate via Google Tasks**.
+ptune is designed specifically to **run your day in a simple and structured way**.
 
-![ptunedataflow](../img/ptune_data_flow.png)
+Your smartphone and Obsidian can optionally integrate via Google Tasks.
+
+![Data Flow](../img/ptune_data_flow.png)
+
+### Morning: Plan
+- Organize what you will do today  
+- Define your tasks  
+- Sync if needed  
+
+### Daytime: Execute
+- Work on your tasks  
+- Track time using the timer  
+- Take notes when necessary  
+
+### Evening: Reflect
+- Review what you accomplished  
+- Look back at your work  
+- Identify improvements  
+- Optionally use AI to summarize notes  
+
+※ AI usage is optional  
+※ Reflection is done by the user, not by AI  
 
 ---
 
-## Daily Workflow (Use Cases)
+## Features
 
-### Morning: Organize tasks in Obsidian
-- Write down what you plan to do today  
-- Sync tasks to Google Tasks  
-- The updated tasks appear on your mobile device  
-
-### Afternoon: Record your work on mobile and in Obsidian
-- Accumulate various work logs in your Obsidian notes according to each task  
-- Simply start/stop the timer to automatically record work duration  
-- Work details and completion status are stored in Google Tasks  
-
-### Evening: Review in Obsidian
-- The day’s work logs are automatically aggregated  
-- AI extracts key points and keywords  
-- “What went well today (Keep)” is saved to the Daily Note  
-- Helps you plan for the next day  
+- Designed around a **daily cycle (plan → execute → reflect)**  
+- Integrates planning, execution, and reflection  
+- Reflection is **user-driven**, with AI as optional support  
+- Clear separation between task management and record analysis  
 
 ---
 
-## Benefits of the ptune Project
+## Project Structure
 
-- **Automatic aggregation of work logs**  
-- **Easy note creation and organization (AI summaries + keyword extraction)**  
-- **Seamless integration between mobile and desktop**  
-- **Daily reflection becomes a natural habit**  
-- **Improves the quality of next-day planning**
+The project consists of:
+
+- **ptune-task**: core functionality for daily operation  
+- **ptune-log**: optional advanced functionality for deeper record usage  
+
+---
+
+### ptune-task
+
+**ptune-task** is the core component of the ptune project.  
+It is a task management system designed to **reliably run your daily workflow**.
+
+- Task organization and execution  
+- Time tracking via smartphone timer  
+- Optional synchronization with Google Tasks  
+
+#### Characteristics
+
+- Focused on daily usage  
+- Designed for stability and simplicity  
+- Works without AI  
+- Essential starting point of the system  
+
+---
+
+### ptune-log
+
+**ptune-log** is an optional extension for users who want to  
+make deeper use of their work records.
+
+It is **not required for daily operation**, and is intended for more advanced usage.
+
+- Organizing work notes  
+- Structuring records  
+- Supporting reflection with better context  
+
+#### Characteristics
+
+- Designed for more advanced record usage  
+- Currently under design and exploration  
+- Intended for future extensibility  
+- Targeted toward expert users  
+
+※ AI usage is also under consideration (not finalized)
+
+---
+
+## Comparison: ptune-task vs ptune-log
+
+| Category | ptune-task | ptune-log |
+|----------|------------|-----------|
+| Position | Core feature | Advanced extension |
+| Required | Required | Optional |
+| Use Case | Daily task management | Work record organization and analysis |
+| Target Users | Users who want stable daily operation | Users who want more advanced record analysis |
+| Data | Tasks, results, basic work logs | Notes, memos, and various logs |
+| Purpose | Task execution and productivity | Knowledge structuring |
+| Platform | Obsidian + mobile timer (ptune) | Obsidian + Python |
+| AI Usage | Optional (limited to summarization) | Actively utilized |
+| Development Policy | Stability-focused | Iterative and exploratory |
 
 ---
 
 ## Related Links
 
-- 📱 **Mobile App: ptune**  
-   [GitHub — getperf/ptune](https://github.com/getperf/ptune)
+- **ptune (Mobile App)**  
+  https://github.com/getperf/ptune  
 
-- 📒 **Obsidian Plugin: ptune-log**  
-   [GitHub — getperf/ptune-log](https://github.com/getperf/ptune-log)
+- **ptune-task (Obsidian Plugin)**  
+  https://github.com/getperf/ptune-task  
 
-- 💻 **PtuneSync (Windows Sync Tool)**  
-   [GitHub — getperf/PtuneSync](https://github.com/getperf/PtuneSync)
+- **ptune-log (Python Package)**  
+  https://github.com/getperf/ptune-log  
 
-- ⚖️ [**Privacy Policy**](privacy.md)  
+- **PtuneSync (Windows Helper Tool)**  
+  https://github.com/getperf/PtuneSync  
+
+- [Privacy Policy](privacy.md)
 
 ---
 
-© 2025 getperf.net
+© 2025-2026 getperf.net

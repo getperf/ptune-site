@@ -19,35 +19,38 @@ theme:
         icon: material/weather-sunny
         name: ライトモードに切り替え
   features:
-    - navigation.footer  
+    - navigation.footer
 extra_css:
   - stylesheets/extra.css
 
 nav:
   - 日本語:
       - ホーム: index.md
+      - ユーザテストへのご協力: user-test/index.md
       - スマホアプリ ptune: ptune.md
-      - Obsidian プラグイン ptune-log:
-        - システム要件: ptune-log/requirements/index.md
+      - Obsidian プラグイン ptune-task:
+        - システム要件: ptune-task/requirements/index.md
         - セットアップ:
-            - セットアップ概要: ptune-log/setup/index.md
-            - Obsidian インストール: ptune-log/setup/install-obsidian.md
-            - ptune-log プラグインインストール: ptune-log/setup/install-plugin.md
-            - PtuneSync 補助ツール: ptune-log/setup/install-ptunesync.md
-            - AIサービスキー設定: ptune-log/setup/ai-service-keys.md
-            - その他のセットアップ: ptune-log/setup/other-setup.md
-            - Google OAuth (mac): ptune-log/setup/google-oauth-mac.md
+            - セットアップ概要: ptune-task/setup/index.md
+            - Obsidian インストール: ptune-task/setup/install-obsidian.md
+            - ptune-task プラグインインストール: ptune-task/setup/install-plugin.md
+            - ノート初期化と Daily Notes 設定: ptune-task/setup/notes-setup.md
+            - PtuneSync 補助ツール: ptune-task/setup/install-ptunesync.md
+            - 推奨プラグイン設定: ptune-task/setup/recommended-plugins.md
+            - AIサービスキー設定: ptune-task/setup/ai-service-keys.md
+            - その他のセットアップ: ptune-task/setup/other-setup.md
         - 利用手順:
-            - 利用手順概要: ptune-log/usage/index.md
-            - 1日のタスク登録（朝）: ptune-log/usage/morning-task-entry.md
-            - ノート記録（昼）: ptune-log/usage/noon-note-taking.md
-            - 1日の振り返り（夜）: ptune-log/usage/night-review.md
-            - その他の機能: ptune-log/usage/other-features.md
-            - タグメンテナンス: ptune-log/usage/tag-maintenance.md
+            - 利用手順概要: ptune-task/usage/index.md
+            - 1日の流れ（全体像）: ptune-task/usage/overview-daily-flow.md
+            - "① 朝: タスク定義": ptune-task/usage/step1-morning-task-entry.md
+            - "② 昼: 作業開始": ptune-task/usage/step2-start-working.md
+            - "③ 日中: ノート記録": ptune-task/usage/step3-note-taking.md
+            - "④ 作業終了: ノート整理": ptune-task/usage/step4-wrap-up.md
+            - "⑤ 夜: 振り返り": ptune-task/usage/step5-night-review.md
         - コマンドリファレンス:
-            - コマンド一覧: ptune-log/reference/commands.md
-            - 設定パラメータ: ptune-log/reference/settings.md
-        - よくある質問: ptune-log/faq/index.md
+            - コマンド一覧: ptune-task/reference/commands.md
+            - 設定パラメータ: ptune-task/reference/settings.md
+        - よくある質問: ptune-task/faq/index.md
       - プライバシーポリシー: privacy.md
       - 利用規約: terms.md
   - English:
