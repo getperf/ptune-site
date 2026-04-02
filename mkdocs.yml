@@ -19,7 +19,7 @@ theme:
         icon: material/weather-sunny
         name: ライトモードに切り替え
   features:
-    - navigation.footer  
+    - navigation.footer
 extra_css:
   - stylesheets/extra.css
 
@@ -28,31 +28,20 @@ nav:
       - ホーム: index.md
       - ユーザテストへのご協力: user-test/index.md
       - スマホアプリ ptune: ptune.md
-      - Obsidian プラグイン ptune-log:
-        - システム要件: ptune-log/requirements/index.md
+      - Obsidian プラグイン ptune-task:
+        - システム要件: ptune-task/requirements/index.md
         - セットアップ:
-            - セットアップ概要: ptune-log/setup/index.md
-            - Obsidian インストール: ptune-log/setup/install-obsidian.md
-            - ptune-log プラグインインストール: ptune-log/setup/install-plugin.md
-            - WebClipper の確認: ptune-log/setup/install-web-clipper.md
-            - PtuneSync 補助ツール: ptune-log/setup/install-ptunesync.md
-            - AIサービスキー設定: ptune-log/setup/ai-service-keys.md
-            - その他のセットアップ: ptune-log/setup/other-setup.md
-            - Google OAuth (mac): ptune-log/setup/google-oauth-mac.md
-        - 利用手順:
-            - 利用手順概要: ptune-log/usage/index.md
-            - 1日の流れ（全体像）: ptune-log/usage/overview-daily-flow.md
-            - ① 朝：タスク定義: ptune-log/usage/step1-morning-task-entry.md
-            - ② 昼：作業開始: ptune-log/usage/step2-start-working.md
-            - ③ 作業記録: ptune-log/usage/step3-note-taking.md
-            - ④ 作業終了: ptune-log/usage/step4-wrap-up.md
-            - ⑤ 夜：振り返り: ptune-log/usage/step5-night-review.md
-            - その他の機能: ptune-log/usage/other-features.md
-            - タグメンテナンス: ptune-log/usage/tag-maintenance.md
+            - セットアップ概要: ptune-task/setup/index.md
+            - Obsidian インストール: ptune-task/setup/install-obsidian.md
+            - ptune-task プラグインインストール: ptune-task/setup/install-plugin.md
+            - WebClipper の確認: ptune-task/setup/install-web-clipper.md
+            - PtuneSync 補助ツール: ptune-task/setup/install-ptunesync.md
+            - AIサービスキー設定: ptune-task/setup/ai-service-keys.md
+            - その他のセットアップ: ptune-task/setup/other-setup.md
         - コマンドリファレンス:
-            - コマンド一覧: ptune-log/reference/commands.md
-            - 設定パラメータ: ptune-log/reference/settings.md
-        - よくある質問: ptune-log/faq/index.md
+            - コマンド一覧: ptune-task/reference/commands.md
+            - 設定パラメータ: ptune-task/reference/settings.md
+        - よくある質問: ptune-task/faq/index.md
       - プライバシーポリシー: privacy.md
       - 利用規約: terms.md
   - English:

@@ -15,7 +15,7 @@
 
 - **モバイルアプリ版 ptune**
 - **デスクトップ版 PtuneSync**
-- **Obsidian プラグイン（ptune-log）**
+- **Obsidian プラグイン（ptune-task）**
 
 これらはいずれもユーザーの端末上で動作し、開発者の独自サーバーは利用しません。
 
