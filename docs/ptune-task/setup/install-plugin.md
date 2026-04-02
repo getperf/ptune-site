@@ -55,8 +55,3 @@ ptune-task では、初回利用時に **セットアップ確認** モーダル
 - [PtuneSync セットアップ](install-ptunesync.md)
 - [推奨項目の各種プラグイン設定](recommended-plugins.md)
 
-## 注意
-
-- フェーズ1では ZIP 配布や手動配置は案内しません
-- プラグイン更新も BRAT 経由の更新を前提にします
-- 画面名やボタン名は Obsidian や BRAT のバージョンで多少異なることがあります
