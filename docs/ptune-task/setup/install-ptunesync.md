@@ -39,14 +39,7 @@ PtuneSync は、ptune-task と Google Tasks を接続するための Windows 用
 - 認証に失敗する場合は、ブラウザの Google ログイン状態を見直して再実行してください
 - 企業ネットワークや VPN 配下では OAuth が失敗する場合があります
 
-## 5. PtuneSync の GUI モードについて（オプション）
-
-PtuneSync には、Obsidian を使わないユーザー向けに  
-**簡易 GUI モード**が用意されています。  
-タスクを手動で入力し、そのまま Google Tasks に送ります。  
-Obsidian を利用しない環境で、ptune スマホアプリと連携したい場合に利用します。
-
-## 補足： GUI モードについて（オプション）
+## 6. PtuneSync の GUI モードについて（オプション）
 
 PtuneSync には、Obsidian を使わないユーザー向けに  
 **簡易 GUI モード**が用意されています。  

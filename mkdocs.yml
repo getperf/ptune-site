@@ -27,7 +27,6 @@ nav:
   - 日本語:
       - ホーム: index.md
       - ユーザテストへのご協力: user-test/index.md
-      - スマホアプリ ptune: ptune.md
       - Obsidian プラグイン ptune-task:
         - システム要件: ptune-task/requirements/index.md
         - セットアップ:
@@ -51,6 +50,7 @@ nav:
             - コマンド一覧: ptune-task/reference/commands.md
             - 設定パラメータ: ptune-task/reference/settings.md
         - よくある質問: ptune-task/faq/index.md
+      - スマホアプリ ptune: ptune.md
       - プライバシーポリシー: privacy.md
       - 利用規約: terms.md
   - English:

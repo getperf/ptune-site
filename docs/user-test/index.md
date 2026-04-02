@@ -25,7 +25,7 @@
 
 - Gmail アドレスの事前登録が必要です
 - 登録後、以下からアプリをインストール
-  - [Play ストア（ptune）](https://play.google.com/store/apps/details?id=net.getperf.ptune)
+  - [Play ストア（ptune）](https://play.google.com/store/apps/details?id=net.getperf.ptune) ※ Gmail アドレスを事前登録しないと参照できません
 
 ---
 
@@ -75,30 +75,30 @@
 ### ptune
 
 - ガイド
-  - [スマホアプリ ptune の概要](https://ptune.getperf.net/ptune/)
+    - [スマホアプリ ptune の概要](https://ptune.getperf.net/ptune/)
 - GitHub
-  - [GitHub - ptune](https://github.com/getperf/ptune)
+    - [GitHub - ptune](https://github.com/getperf/ptune)
 - Android
-  - [ptune (Android)](https://play.google.com/store/apps/details?id=net.getperf.ptune)
+    - [ptune (Android)](https://play.google.com/store/apps/details?id=net.getperf.ptune)
 - iPhone
-  - [ptune（iPhone / TestFlight）](https://testflight.apple.com/join/q81BYpyS)
+    - [ptune（iPhone / TestFlight）](https://testflight.apple.com/join/q81BYpyS)
 
 ---
 
 ### ptune-task
 
 - ガイド
-  - [ptune-task セットアップガイド](https://ptune.getperf.net/ptune-task/setup/)
+    - [ptune-task セットアップガイド](https://ptune.getperf.net/ptune-task/setup/)
 - GitHub
-  - [GitHub - ptune-task](https://github.com/getperf/ptune-task)
+    - [GitHub - ptune-task](https://github.com/getperf/ptune-task)
 
 ---
 
 ### PtuneSync
 
 - ガイド
-  - [PtuneSync 補助ツールのセットアップ](https://ptune.getperf.net/ptune-task/setup/install-ptunesync/)
+    - [PtuneSync 補助ツールのセットアップ](https://ptune.getperf.net/ptune-task/setup/install-ptunesync/)
 - GitHub
-  - [GitHub - PtuneSync](https://github.com/getperf/PtuneSync)
+    - [GitHub - PtuneSync](https://github.com/getperf/PtuneSync)
 - Microsoft Store
-  - [PtuneSync（Microsoft Store）](https://apps.microsoft.com/detail/9p9hqs78nvlz?hl=ja-JP&gl=JP)
+    - [PtuneSync（Microsoft Store）](https://apps.microsoft.com/detail/9p9hqs78nvlz?hl=ja-JP&gl=JP)

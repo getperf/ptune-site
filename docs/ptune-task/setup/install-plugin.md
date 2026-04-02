@@ -40,10 +40,8 @@ ptune-task では、初回利用時に **セットアップ確認** モーダル
 
 モーダルには、主に次の項目が表示されます。
 
-- **ノート関連ディレクトリ**
-  `_project` と `_journal` の初期化状況を確認します
 - **必須項目**
-  `Daily Notes` と `PtuneSync` のような、利用開始に必要な項目を確認します
+  `_project` と `_journal` のフォルダ初期化、`Daily Notes` と `PtuneSync` のような、利用開始に必要な項目を確認します
 - **推奨項目**
   `Calendar`、`Outliner`、`Bases` などの推奨プラグインを確認します
 
