@@ -34,8 +34,9 @@ nav:
             - セットアップ概要: ptune-task/setup/index.md
             - Obsidian インストール: ptune-task/setup/install-obsidian.md
             - ptune-task プラグインインストール: ptune-task/setup/install-plugin.md
-            - WebClipper の確認: ptune-task/setup/install-web-clipper.md
+            - ノート初期化と Daily Notes 設定: ptune-task/setup/notes-setup.md
             - PtuneSync 補助ツール: ptune-task/setup/install-ptunesync.md
+            - 推奨プラグイン設定: ptune-task/setup/recommended-plugins.md
             - AIサービスキー設定: ptune-task/setup/ai-service-keys.md
             - その他のセットアップ: ptune-task/setup/other-setup.md
         - コマンドリファレンス:

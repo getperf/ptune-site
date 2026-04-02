@@ -30,7 +30,8 @@ PtuneSync は、Obsidian と Google Tasks の認証と同期を補助する Wind
 
 1. Obsidian のインストール
 2. ptune-task のインストール
-3. Web Clipper の確認
+3. ノート関連ディレクトリの初期化と Daily Notes 設定
 4. PtuneSync のインストール
-5. AI サービスキー設定
-6. その他の任意設定
+5. 推奨項目の各種プラグイン設定
+6. AI サービスキー設定
+7. その他の任意設定
