@@ -39,6 +39,14 @@ nav:
             - 推奨プラグイン設定: ptune-task/setup/recommended-plugins.md
             - AIサービスキー設定: ptune-task/setup/ai-service-keys.md
             - その他のセットアップ: ptune-task/setup/other-setup.md
+        - 利用手順:
+            - 利用手順概要: ptune-task/usage/index.md
+            - 1日の流れ（全体像）: ptune-task/usage/overview-daily-flow.md
+            - ① 朝: タスク定義: ptune-task/usage/step1-morning-task-entry.md
+            - ② 昼: 作業開始: ptune-task/usage/step2-start-working.md
+            - ③ 日中: ノート記録: ptune-task/usage/step3-note-taking.md
+            - ④ 作業終了: ノート整理: ptune-task/usage/step4-wrap-up.md
+            - ⑤ 夜: 振り返り: ptune-task/usage/step5-night-review.md
         - コマンドリファレンス:
             - コマンド一覧: ptune-task/reference/commands.md
             - 設定パラメータ: ptune-task/reference/settings.md
