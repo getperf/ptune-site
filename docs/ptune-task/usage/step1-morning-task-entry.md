@@ -47,9 +47,17 @@
 
 ptune と ptune-task は Google Tasks を介して連携します。
 
-1. Obsidian のコマンドパレットを開く
-2. `デイリーノートからタスクをエクスポート` を実行する
+1. Ctrl+P で、Obsidian のコマンドパレットを開く
+2. `ptune-task : 今日の予定を Push` を実行する
 3. スマホアプリ ptune を開く
 4. 同期画面で `タスクを取り込む` を実行する
 
 これで朝の準備は完了です。
+
+## 補足: 前日の未完了タスクの事前取込み
+
+- 事前に Google Tasks にあるタスクを 予定タスクに取込みが可能です  
+- Ctrl+P で、`ptune-task : 今日の予定を Pull` を実行します  
+- 未完了タスクのみ Google Tasks 側からタスクの取込みをします  
+- Google Tasks に直接登録したタスクも、 Pull で取込みをしてください  
+
