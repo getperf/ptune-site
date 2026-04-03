@@ -23,9 +23,14 @@
 
 ### Android
 
-- Gmail アドレスの事前登録が必要です
-- 登録後、以下からアプリをインストール
-  - [Play ストア（ptune）](https://play.google.com/store/apps/details?id=net.getperf.ptune) ※ Gmail アドレスを事前登録しないと参照できません
+- Android 版 `ptune` は Google Play のクローズドテストで配布します
+- Play ストアを開く前に、**Google Play にログインする Gmail アドレスの登録** が必要です
+- まず次のフォームから参加申請を行ってください
+  - [Gmail 登録フォームを開く](https://forms.gle/ookmjczGQBJ8vZeP6)
+- 登録後、管理者がクローズドテスト対象へ追加し、opt-in 用リンクを案内します
+- 案内後、登録した Gmail で Google Play にサインインして参加してください
+- Play ストアのリンクは、追加後に利用してください
+  - [Play ストア（ptune）](https://play.google.com/store/apps/details?id=net.getperf.ptune)
 
 ---
 
@@ -79,7 +84,8 @@
 - GitHub
     - [GitHub - ptune](https://github.com/getperf/ptune)
 - Android
-    - [ptune (Android)](https://play.google.com/store/apps/details?id=net.getperf.ptune)
+    - [Gmail 登録フォーム](https://forms.gle/ookmjczGQBJ8vZeP6)
+    - [ptune (Android / Play ストア)](https://play.google.com/store/apps/details?id=net.getperf.ptune)
 - iPhone
     - [ptune（iPhone / TestFlight）](https://testflight.apple.com/join/q81BYpyS)
 
