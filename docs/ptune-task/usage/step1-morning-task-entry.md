@@ -59,5 +59,5 @@ ptune と ptune-task は Google Tasks を介して連携します。
 - 事前に Google Tasks にあるタスクを 予定タスクに取込みが可能です  
 - Ctrl+P で、`ptune-task : 今日の予定を Pull` を実行します  
 - 未完了タスクのみ Google Tasks 側からタスクの取込みをします  
-- Google Tasks に直接登録したタスクも、 Pull で取込みをしてください  
+- Google Tasks のサイトから直接登録したタスクも、 Pull で取込みをしてください  
 
