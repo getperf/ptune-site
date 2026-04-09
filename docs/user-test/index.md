@@ -11,11 +11,11 @@
 
 ## 1. テスト対象パッケージの概要
 
-| パッケージ | 役割 | テスト状況 | インストール方法 |
+| パッケージ | 役割 | テスト参加の注意点 | インストール方法 |
 |------------|------|-------------|------------------|
-| **ptune（スマホアプリ）** | タイマー・タスク管理 | Android/iPhone クローズドテスト中 | → [Android](#android) / [iPhone](#iphonetestflight) |
-| **ptune-task（Obsidian プラグイン）** | タスク管理・記録・振り返りの基盤 | BRAT 経由でテスト | → [Obsidian（ptune-task）](#obsidianptune-task) |
-| **PtuneSync（Windows）** | Obsidian と Google Tasks の連携補助 | 公開済み | → [Windows（PtuneSync）](#windowsptunesync) |
+| **ptune（スマホアプリ）** | タイマー・タスク管理 | Android版は事前に Gmail アドレスの登録申請が必要、iPhone 版は右記 URL から直接インストール | → [Android](#android) / [iPhone](#iphonetestflight) |
+| **ptune-task（Obsidian プラグイン）** | タスク管理・記録・振り返りの基盤 | Obsidian BRAT プラグイン経由でインストール。詳細は右記ガイド参照 | → [Obsidian（ptune-task）](#obsidianptune-task) |
+| **PtuneSync（Windows）** | Obsidian と Google Tasks の連携補助 | Microsoft ストアアプリからインストール | → [Windows（PtuneSync）](#windowsptunesync) |
 
 ---
 
