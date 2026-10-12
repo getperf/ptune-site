@@ -23,6 +23,9 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+markdown_extensions:
+  - attr_list
+
 nav:
   - 日本語:
       - ホーム: index.md
@@ -51,6 +54,7 @@ nav:
             - 設定パラメータ: ptune-task/reference/settings.md
         - よくある質問: ptune-task/faq/index.md
       - スマホアプリ ptune: ptune.md
+      - タイマー通知設定: ptune/notifications.md
       - プライバシーポリシー: privacy.md
       - 利用規約: terms.md
   - English:
